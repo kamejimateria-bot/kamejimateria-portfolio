@@ -6,7 +6,7 @@ import Works from "./pages/Works";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/kamejimateria-portfolio">
       <Routes>
         <Route
           path="/"
