@@ -11,15 +11,23 @@ const thumbs = import.meta.glob("../assets/thum/*.webp", { eager: true });
 const getImage = (id, type = "full") => {
   const base = `works_${id}.webp`;
 
-  if (type === "thumb") {
-    return thumbs[`../assets/thum/${base}`]?.default;
-  }
-  return images[`../assets/works/${base}`]?.default;
+  const key =
+    type === "thumb" ? `../assets/thum/${base}` : `../assets/works/${base}`;
+
+  const target = type === "thumb" ? thumbs : images;
+
+  const file = target[key];
+
+  //console.log("type:", type, "key:", key, "file:", file);
+
+  return file?.default || file || "";
 };
 
 function Works() {
   const [selectedWork, setSelectedWork] = useState(null);
 
+  // console.log("images:", images);
+  // console.log("thumbs:", thumbs);
   return (
     <div className="works">
       <h2>Works</h2>
