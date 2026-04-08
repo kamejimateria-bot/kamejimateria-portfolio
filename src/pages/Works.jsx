@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import WorkCard from "../components/WorkCard";
 import Modal from "../components/Modal";
 import { works } from "../data/works";
@@ -15,27 +15,33 @@ const getImage = (id, type = "full") => {
     type === "thumb" ? `../assets/thum/${base}` : `../assets/works/${base}`;
 
   const target = type === "thumb" ? thumbs : images;
-
   const file = target[key];
-
-  //console.log("type:", type, "key:", key, "file:", file);
 
   return file?.default || file || "";
 };
 
 function Works() {
   const [selectedWork, setSelectedWork] = useState(null);
-  const preloaded = new Set();
+
+  // 👇 永続化（これ重要）
+  const preloaded = useRef(new Set());
 
   const preloadImage = (src) => {
-    if (preloaded.has(src)) return;
+    if (!src || preloaded.current.has(src)) return;
+
     const img = new Image();
     img.src = src;
-    preloaded.add(src);
+
+    preloaded.current.add(src);
   };
 
-  // console.log("images:", images);
-  // console.log("thumbs:", thumbs);
+  // 👇 ページ読み込み後に軽く先読み（5件だけ）
+  useEffect(() => {
+    works.slice(0, 5).forEach((work) => {
+      preloadImage(getImage(work.id, "full"));
+    });
+  }, []);
+
   return (
     <div className="works">
       <h2>Works</h2>
@@ -46,13 +52,13 @@ function Works() {
             key={work.id}
             title={work.title}
             title_caption={work.title_caption}
-            image={getImage(work.id, "thumb")} // 👈 サムネ
+            image={getImage(work.id, "thumb")}
             onMouseEnter={() => preloadImage(getImage(work.id, "full"))}
             onTouchStart={() => preloadImage(getImage(work.id, "full"))}
             onClick={() =>
               setSelectedWork({
                 ...work,
-                image: getImage(work.id, "full"), // 👈 フル画像
+                image: getImage(work.id, "full"),
               })
             }
           />
