@@ -44,7 +44,7 @@ function Modal({ work, onClose }) {
         </h2>
 
         <figure>
-          <img src={work.image} alt={work.title} />
+          <img src={work.image} alt={work.title} loading="lazy" />
         </figure>
 
         {/* <div className="desc">{formatDetail(work.detail)}</div> */}
