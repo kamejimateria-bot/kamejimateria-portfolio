@@ -5,8 +5,13 @@ import About from "./pages/About";
 import Works from "./pages/Works";
 
 function App() {
+  console.log(import.meta.env.MODE);
   return (
-    <BrowserRouter basename="/kamejimateria-portfolio">
+    <BrowserRouter
+      basename={
+        import.meta.env.MODE === "production" ? "/kamejimateria-portfolio" : "/"
+      }
+    >
       <Routes>
         <Route
           path="/"
