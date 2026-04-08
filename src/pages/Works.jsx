@@ -25,6 +25,14 @@ const getImage = (id, type = "full") => {
 
 function Works() {
   const [selectedWork, setSelectedWork] = useState(null);
+  const preloaded = new Set();
+
+  const preloadImage = (src) => {
+    if (preloaded.has(src)) return;
+    const img = new Image();
+    img.src = src;
+    preloaded.add(src);
+  };
 
   // console.log("images:", images);
   // console.log("thumbs:", thumbs);
@@ -39,6 +47,8 @@ function Works() {
             title={work.title}
             title_caption={work.title_caption}
             image={getImage(work.id, "thumb")} // 👈 サムネ
+            onMouseEnter={() => preloadImage(getImage(work.id, "full"))}
+            onTouchStart={() => preloadImage(getImage(work.id, "full"))}
             onClick={() =>
               setSelectedWork({
                 ...work,
