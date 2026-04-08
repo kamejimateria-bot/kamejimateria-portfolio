@@ -37,7 +37,7 @@ function Works() {
 
   // 👇 ページ読み込み後に軽く先読み（5件だけ）
   useEffect(() => {
-    works.slice(0, 5).forEach((work) => {
+    works.slice(0, 18).forEach((work) => {
       preloadImage(getImage(work.id, "full"));
     });
   }, []);
