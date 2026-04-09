@@ -25,6 +25,8 @@ function About() {
           <br />
           ユーザー体験を損なわないための柔軟な課題解決を得意としています。
           <br />
+          AIを活用した開発フローを取り入れ、設計から実装までの試行回数と精度を高めています。
+          <br />
           今後は、デザインとエンジニアリングの境界を越える専門性をさらに深め、
           <br />
           Reactなどのモダンな技術スタックを武器に、
@@ -67,13 +69,34 @@ function About() {
           <h3>Skills</h3>
           <ul>
             <li>
-              <b>Frontend</b>
-              HTML / CSS / JavaScript / PHP
+              <b>Graphic / Layout：</b>
+              Photoshop, Illustrator, InDesign, Affinity
+              <br />
+              （印刷からWebまで一貫したビジュアル構築）
             </li>
+
+            <li>
+              <b>Motion / Interactive：</b>
+              Premiere, After Effects, Animate, Dreamweaver
+              <br />
+              （動的なUIとインタラクション設計）
+            </li>
+
+            <li>
+              <b>Frontend & Server-side：</b>
+              HTML / CSS / JavaScript / React / PHP
+            </li>
+            
+            <li>
+              <b>Development：</b>
+              Git / GitHub<small>（バージョン管理・運用）</small>
+            </li>
+
             <li>
               <b>UI / UX Design</b>
               UI設計 / UX設計 / 情報設計 / レイアウト設計 / レスポンシブ設計
             </li>
+            
             <li>
               <b>Other</b>
               ・CSVデータ管理 / バックエンド連携によるデータ表示・制御
@@ -83,6 +106,12 @@ function About() {
               ・動画コンテンツの埋め込み・再生制御（YouTube など）
               <br />
               ・既存環境における運用改善・保守対応
+            </li>
+
+            <li>
+              <b>Current Focus：</b>
+              React, Figma <br />
+              （UI設計とフロントエンド実装の統合を推進）
             </li>
           </ul>
         </div>
