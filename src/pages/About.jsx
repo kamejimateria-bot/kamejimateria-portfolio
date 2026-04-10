@@ -4,7 +4,7 @@ function About() {
       <h2>About</h2>
 
       <div className="name">
-        <span className="brand">kamejimateria</span>
+        <span className="brand">Kamejimateria</span>
         <span className="realname">Yoshitaka Kamesaka</span>
       </div>
 
@@ -86,7 +86,7 @@ function About() {
               <b>Frontend & Server-side：</b>
               HTML / CSS / JavaScript / React / PHP
             </li>
-            
+
             <li>
               <b>Development：</b>
               Git / GitHub<small>（バージョン管理・運用）</small>
@@ -96,7 +96,7 @@ function About() {
               <b>UI / UX Design</b>
               UI設計 / UX設計 / 情報設計 / レイアウト設計 / レスポンシブ設計
             </li>
-            
+
             <li>
               <b>Other</b>
               ・CSVデータ管理 / バックエンド連携によるデータ表示・制御
