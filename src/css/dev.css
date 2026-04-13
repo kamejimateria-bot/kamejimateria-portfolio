@@ -686,7 +686,7 @@ nav a:hover {
 
 .modal {
   background: #fff;
-  padding: 0 30px 20px;
+  padding: 0 30px;
   border-radius: 8px;
   max-width: 1100px;
   width: 90%;
@@ -754,6 +754,9 @@ nav a:hover {
   break-inside: avoid;
   margin-bottom: 16px;
 }
+.modal .sp_swipe {
+  display: none;
+}
 
 .modal div.desc span b {
   font-size: 13px;
@@ -796,7 +799,7 @@ nav a:hover {
   /* Modal.jsx */
 
   .modal {
-    padding: 2.5rem 4vw;
+    padding: 1.5rem 4vw 3rem;
     border-radius: 8px;
     width: 92vw;
     height: 90%;
@@ -822,12 +825,16 @@ nav a:hover {
     position: relative;
     left: -4vw;
     overflow: scroll;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
   }
   .modal img {
     max-width: unset;
     width: auto;
     height: 100%;
     margin-bottom: 0;
+    scroll-snap-align: start;
+    display: block;
   }
   .modal div.desc {
     font-size: 13px;
@@ -839,6 +846,32 @@ nav a:hover {
     column-count: 2;
     column-gap: 24px;
   }
+  .modal .sp_swipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px 0;
+    color: var(--color-lightblue);
+    font-size: 1rem;
+  }
+  .modal .sp_swipe::before,
+  .modal .sp_swipe::after {
+    content: "";
+    width: 0.8em;
+    height: 1em;
+    background-color: var(--color-lightblue);
+    clip-path: polygon(0.8em 50%, 0% 0%, 0% 1em);
+    display: block;
+  }
+  .modal .sp_swipe::before {
+    transform: rotate(-180deg);
+    margin-right: 0.5rem;
+  }
+  .modal .sp_swipe::after {
+    margin-left: 0.5rem;
+  }
+
   .desc > div {
     break-inside: avoid;
     margin-bottom: 16px;

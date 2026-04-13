@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useEffect, useRef } from "react";
 import { createPortal } from "react-dom";
 
 function formatDetail(text) {
@@ -31,6 +32,21 @@ function Modal({ work, onClose }) {
 
   if (!work) return null;
 
+  const modalRef = useRef(null);
+
+  useEffect(() => {
+    if (!work) return;
+
+    const el = modalRef.current;
+    if (!el) return;
+
+    const timer = setTimeout(() => {
+      el.scrollLeft = 40;
+    }, 50);
+
+    return () => clearTimeout(timer);
+  }, [work]);
+
   return createPortal(
     <div
       className={`modal-overlay ${isClosing ? "fade-out" : "fade-in"}`}
@@ -43,11 +59,12 @@ function Modal({ work, onClose }) {
           <small>{work.title_caption}</small>
         </h2>
 
-        <figure>
+        <figure ref={modalRef}>
           <img src={work.image} alt={work.title} loading="lazy" />
         </figure>
 
         {/* <div className="desc">{formatDetail(work.detail)}</div> */}
+        <span className="sp_swipe">Swipe to view full layout</span>
       </div>
     </div>,
     document.body, // ← body直下にレンダリング
