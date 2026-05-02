@@ -111,21 +111,121 @@ export const works = [
   },
   {
     id: 16,
-    title: " デザイン・制作経験（2004年〜2007年）",
-    title_caption: "有限会社フリーダム（2004年2月～2007年12月） ダイジェスト",
+    title: "ユニットバスカタログ",
+    title_caption: "アートディレクション / デザイン",
     detail: "",
   },
   {
     id: 17,
-    title: "デザイン・制作経験（2008年〜2010年）",
-    title_caption: "有限会社シースペース（2008年1月～2010年8月）ダイジェスト",
+    title: "ユニットバス施行手順書",
+    title_caption: "ディレクション・エディトリアルデザイン・パースイラスト作成",
     detail: "",
   },
   {
     id: 18,
-    title: "デザイン・制作経験（2011年〜2016年）",
+    title: "企業設備商品案内パンフレット",
+    title_caption: "アートディレクション / デザイン",
+    detail: "",
+  },
+  {
+    id: 19,
+    title: "企業Webサイト（明瞭期）",
+    title_caption: "Webデザイン・制作（HTML/Flash）",
+    detail: "",
+  },
+  {
+    id: 20,
+    title: "企業保険組合季刊誌",
+    title_caption: "エディトリアルデザイン /イラストディレクション",
+    detail: "",
+  },
+  {
+    id: 21,
+    title: "教育出版　中学国語教科書",
+    title_caption: "紙面レイアウト・DTP",
+    detail: "",
+  },
+  {
+    id: 22,
+    title: "2009 FFCC ルセットブック　グランシェフのエスプリ",
+    title_caption: "エディトリアルデザイン",
+    detail: "",
+  },
+  {
+    id: 23,
+    title: "企業社内報",
+    title_caption: "アートディレクション・エディトリアルデザイン",
+    detail: "",
+  },
+  {
+    id: 24,
+    title: "ドコモゼミ対応 「出るナビ」",
     title_caption:
-      "株式会社ジャパン・アド・クリエイターズ（2011年4月～2016年6月）ダイジェスト",
+      "UI/UXデザイン・オーサリング（Adobe Air for Android/iOSを用いたプログラミング）",
+    detail: "",
+  },
+  {
+    id: 25,
+    title: "高校入試ランク順アプリ",
+    title_caption:
+      "UI/UXデザイン・オーサリング（Adobe Air for Android/iOSを用いたプログラミング）",
+    detail: "",
+  },
+  {
+    id: 26,
+    title: "中学入試一問一答 反復プリント作成ソフト",
+    title_caption:
+      "UI/UXデザイン・オーサリング（Adobe Air for Android/iOSを用いたプログラミング）",
+    detail: "",
+  },
+  {
+    id: 27,
+    title: "CoNETS デジタル教科書 UI 制作",
+    title_caption: "UIデザイン",
+    detail: "",
+  },
+  {
+    id: 28,
+    title: "大日本図書 中学理科 デジタル教科書 コンテンツ制作",
+    title_caption:
+      "UIデザイン、コーディング、プログラム実装（HTML5/JavaScript）",
+    detail: "",
+  },
+  {
+    id: 29,
+    title: "大日本図書 中学理科 デジタル教科書 コンテンツ制作",
+    title_caption: "UIデザイン",
+    detail: "",
+  },
+  {
+    id: 30,
+    title: "シャープ　 LEDシーリングライト webサイト",
+    title_caption: "Webデザイン、制作",
+    detail: "",
+  },
+  {
+    id: 31,
+    title: "シャープ　 ブルーレイ webサイト",
+    title_caption: "Webデザイン、制作",
+    detail: "",
+  },
+  {
+    id: 32,
+    title: "3ドライブハイパワーエンジン紹介動画／ヘルシオ：シャープ",
+    title_caption:
+      "デザイン、コーディング、プログラミング（HTML5 CANVAS / Flash）",
+    detail: "",
+  },
+  {
+    id: 33,
+    title: "シャープの教育ソリューション「BIG PAD + STUDY SERIES」2016篇",
+    title_caption: "動画制作",
+    detail: "",
+  },
+  {
+    id: 34,
+    title: "Kawasaki Hybrid Propulsion System プロモーション映像",
+    title_caption: "動画制作",
     detail: "",
   },
 ];
