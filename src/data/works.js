@@ -2,6 +2,7 @@ export const works = [
   {
     id: 1,
     title: "テレメール全国一斉進学調査　アンケートサイト",
+    category: ["web", "frontend", "ux-design"],
     title_caption:
       "大学受験生向けアンケートの入力体験を改善するWebアプリ設計・実装案件",
     detail:
@@ -10,6 +11,7 @@ export const works = [
   {
     id: 2,
     title: "夢ナビTALKサイト",
+    category: ["web", "design", "oparation"],
     title_caption: "デザイン制作、プロトタイプコーディング、運用・更新。",
     detail:
       "■案件概要\n・デザイン制作、プロトタイプコーディング、運用・更新を担当\n長期利用に耐えるシンプルで飽きのこないデザイン設計。\n・YouTubeやJstreamなどの動画コンテンツをWeb上で快適に閲覧できるUIの工夫。\n・大学個別ページなど、フロムページ社独自仕様に対応したHTML/CSS/JSのフロントエンド共通構成の設計・実装。\n・社内エンジニアおよび外部ベンダーとの連携・調整を実施。\n・イベント当日の運営にも携わり、進行管理、関係部署、撮影業社、編集業社、大学担当との連携を行い、円滑なイベント実施、コンテンツ更新に貢献",
@@ -17,6 +19,7 @@ export const works = [
   {
     id: 3,
     title: " 夢ナビライブ特設サイト",
+    category: ["web", "frontend", "oparation", "direction"],
     title_caption: "進学イベント「夢ナビライブ」イベントサイトの構築・運用",
     detail:
       "■案件概要\nフロムページ社主催の進学イベント「夢ナビライブ」のイベントサイトの構築・運用・更新業務を担当（デザインは別部署と連携）\n・PHP / CSS / JavaScript を用い、CSVによるデータ管理を導入し、短期間での情報更新に対応可能な構成を設計、動画ポップアップ表示、イイベント開催期間に応じた表示制御を実装し、迅速な更新が可能なサイト設計およびレスポンシブ対応を実施\n・データベースやAPI連携などのシステム領域については、社内エンジニアと連携しながら調整・対応\n・資料請求ページにおいて検索機能の実装を担当\n・CDN（Akamai）を用いたキャッシュクリア対応を行い、表示不整合や更新遅延の解消に対応\n・オンラインイベント当日の運営にも携わり、コンテンツ更新、進行管理、関係部署との連携を行い、円滑なイベント実施に貢献",
@@ -24,6 +27,7 @@ export const works = [
   {
     id: 4,
     title: "テレメール進学サイト",
+    category: ["web", "frontend", "oparation"],
     title_caption: "リニューアル構築,コーディング、運用、更新",
     detail:
       "■担当範囲\n・高校生向け受験準備・資料請求サービスを提供するフロムページ社メインサイトにて、コーディング、運用、更新業務を担当（デザインは別部署と連携）\n・PC版とスマホ版が別ページとして存在していたトップページ他のリニューアル・レスポンシブ化を担当（2022年）\n・大規模サイト構成のため、既存ページへの影響を最小限に抑えたメニュー更新および運用改善を実施\n・HTML（PHP）/ CSS / JavaScript の構造整理を行い、保守性向上および表示速度の改善に貢献\n・サイト掲載用バナーの作成・更新・運用を担当\n・データベース等のシステム関連領域については、社内エンジニアと連携しながら調整・対応\n・既存構成を維持しつつ段階的に改善を行い、運用負荷軽減と安定したサイト運営に寄与",
@@ -31,6 +35,7 @@ export const works = [
   {
     id: 5,
     title: "テレメール全国一斉進学調査",
+    category: ["web", "frontend"],
     title_caption: "ランディングページ/調査結果コンテンツページ",
     detail:
       "■担当範囲\n・高校生向け受験準備・資料請求サービスを提供するフロムページ社メインサイトにて、コーディング、運用、更新業務を担当（デザインは別部署と連携）\n・PC版とスマホ版が別ページとして存在していたトップページ他のリニューアル・レスポンシブ化を担当（2022年）\n・大規模サイト構成のため、既存ページへの影響を最小限に抑えたメニュー更新および運用改善を実施\n・HTML（PHP）/ CSS / JavaScript の構造整理を行い、保守性向上および表示速度の改善に貢献\n・サイト掲載用バナーの作成・更新・運用を担当\n・データベース等のシステム関連領域については、社内エンジニアと連携しながら調整・対応\n・既存構成を維持しつつ段階的に改善を行い、運用負荷軽減と安定したサイト運営に寄与",
@@ -38,6 +43,7 @@ export const works = [
   {
     id: 6,
     title: "テレメール進学サイト カタログ連動コンテンツ",
+    category: ["web", "frontend", "ux-design"],
     title_caption:
       "（テレメール進学カタログ　SELF BRAND／大学受験 いざ、挑戦／新学年スタート号　 各連動サイト）",
     detail:
@@ -46,6 +52,7 @@ export const works = [
   {
     id: 7,
     title: " テレメール進学サイトコンテンツ　大学パンフレット紹介動画ページ ",
+    category: ["web", "frontend", "oparation", "direction"],
     title_caption: "Youtube連動コンテンツの構築、運用、更新",
     detail:
       "■担当範囲\n・高校生向け受験準備・資料請求サービスを提供するフロムページ社メインサイト内コンテンツにおいて、コロナ禍により実地イベントが制限される中、大学パンフレットの代替的な情報提供・PRを目的とした動画紹介ページの構築・運用を担当\n・YouTube動画をページ内でシームレスに再生できるUIを、PHP / CSS / JavaScriptによりレスポンシブ対応で実装（社内エンジニアと協業）\n・一覧からの動画選択〜再生までの導線設計を行い、ユーザーが離脱せず閲覧できる構成を設計\n・検索UIについては社内デザイナーと共同で検討し、カテゴリ・条件による絞り込み機能を実装\n・デザインは他部署と連携しつつ、実装観点からの改善提案も実施\n・コンテンツ更新においては、PHPおよびCSVによるデータ管理構造を設計し、短期間での大量更新に対応可能な運用基盤を構築\n・YouTube APIと連携し、jQueryを用いた非同期処理により動画の動的表示・再生制御を実装。動画一覧からの選択〜再生までをシームレスに行えるUIを構築し、UX向上に寄与",
@@ -53,6 +60,7 @@ export const works = [
   {
     id: 8,
     title: "株式会社フロムページ　コーポレートサイト",
+    category: ["web", "frontend", "oparation"],
     title_caption:
       "ブラックボックス化されたフロントエンド構成の機能追加・改善実施・運用業務",
     detail:
@@ -61,6 +69,7 @@ export const works = [
   {
     id: 9,
     title: "夢ナビ講義動画サービス プロモーションLP",
+    category: ["web", "frontend", "oparation"],
     title_caption:
       "フロムページ社の高校生対象の動画視聴サービス「夢ナビ講義動画サービス」プロモーションページ",
     detail:
@@ -69,6 +78,7 @@ export const works = [
   {
     id: 10,
     title: "Ocans PR サイト",
+    category: ["web", "frontend"],
     title_caption:
       "フロムページ社の大学オープンキャンパス支援システム「Ocans」プロモーションページ",
     detail:
@@ -77,6 +87,7 @@ export const works = [
   {
     id: 11,
     title: "SDGs 17ゴール解説",
+    category: ["web", "frontend", "direction"],
     title_caption: "PHP × CSV 動的生成",
     detail:
       "■担当範囲\n・フロムページ社の展開する「夢ナビ」各種サイトの「SDGs検索」の解説リンクページを、社内デザイナーと密に連携し、各検索サービスから誘導される特設解説ページの実装を担当。\n・デザインの再現性と最適化:デザイナーが意図した余白やフォントの可読性、アイコンの配置を、Webブラウザ上で最適なバランスになるよう、実装段階で細部まで詰めを行った。\n・レスポンシブへの配慮: 多様なデバイスでの閲覧を想定し、17個のアイコンや解説文がどの画面サイズでも美しく整理されるよう、柔軟なコーディングを実践。\n・情報のアクセシビリティ: 多くのユーザーが目にするコンテンツとして、情報の優先順位が明確に伝わる構造を意識。\n【課題解決のアプローチ】\n・本コンテンツは17のゴールごとに膨大なテキストと画像が存在し、従来の静的HTML管理では納期や更新コストが課題となっていました。そこで、「誰でも迅速に更新・展開できる仕組み」を独自に設計。\n【テクニカル・ポイント】\n・CSVベースのコンテンツ管理 : テキストデータをCSVで管理し、PHPのURLクエリに基づいて動的に内容を流し込む仕組みを構築。\n・運用の高速化 : HTMLの知識がなくても、CSVの書き換えだけで画像や内容の差し替えを完結させ、納期の大幅な短縮と運用ミスの低減を実現。\n・デザインの一貫性保持 : 共通テンプレートをPHPで制御することで、17ページすべてのレイアウトとブランドイメージを完璧に統一。",
@@ -84,6 +95,7 @@ export const works = [
   {
     id: 12,
     title: "テレメール進学サイトコンテンツ ギモン学問",
+    category: ["web", "frontend", "direction"],
     title_caption:
       "フロントエンド実装 / UI設計・調整（デザイナー・エンジニアとの橋渡し）",
     detail:
@@ -92,6 +104,7 @@ export const works = [
   {
     id: 13,
     title: "メールマガジンコーディング・運用",
+    category: ["direction", "operation"],
     title_caption:
       "デザインの品質を維持しつつ実装速度を最大化する制作フレームワーク（テンプレート・フォーマット）を構築",
     detail: "",
@@ -99,6 +112,7 @@ export const works = [
   {
     id: 14,
     title: "テレメール進学サイトコンテンツ 受験スケジュールを立てよう",
+    category: ["web", "frontend"],
     title_caption:
       "受験生が併願校の受験日程を一元管理・比較できる「受験スケジュール表示機能」のUI設計・プロトタイプ構築",
     detail: "",
@@ -106,60 +120,70 @@ export const works = [
   {
     id: 15,
     title: " 高校アプローチ管理システム",
+    category: ["web", "frontend", "direction"],
     title_caption: "WebアプリUI、モックアップ構築",
     detail: "",
   },
   {
     id: 16,
     title: "ユニットバスカタログ",
+    category: ["visual", "B2B"],
     title_caption: "アートディレクション / デザイン",
     detail: "",
   },
   {
     id: 17,
     title: "ユニットバス施行手順書",
+    category: ["visual", "B2B"],
     title_caption: "ディレクション・エディトリアルデザイン・パースイラスト作成",
     detail: "",
   },
   {
     id: 18,
     title: "企業設備商品案内パンフレット",
+    category: ["visual", "B2B"],
     title_caption: "アートディレクション / デザイン",
     detail: "",
   },
   {
     id: 19,
     title: "企業Webサイト（明瞭期）",
+    category: ["web", "design", "frontend", "B2B"],
     title_caption: "Webデザイン・制作（HTML/Flash）",
     detail: "",
   },
   {
     id: 20,
     title: "企業保険組合季刊誌",
+    category: ["visual", "B2B"],
     title_caption: "エディトリアルデザイン /イラストディレクション",
     detail: "",
   },
   {
     id: 21,
     title: "教育出版　中学国語教科書",
+    category: ["visual", "B2B"],
     title_caption: "紙面レイアウト・DTP",
     detail: "",
   },
   {
     id: 22,
     title: "2009 FFCC ルセットブック　グランシェフのエスプリ",
+    category: ["visual"],
     title_caption: "エディトリアルデザイン",
     detail: "",
   },
   {
     id: 23,
     title: "企業社内報",
+    category: ["visual", "B2B"],
     title_caption: "アートディレクション・エディトリアルデザイン",
     detail: "",
   },
   {
     id: 24,
     title: "ドコモゼミ対応 「出るナビ」",
+    category: ["ux-design", "frontend", "B2B"],
     title_caption:
       "UI/UXデザイン・オーサリング（Adobe Air for Android/iOSを用いたプログラミング）",
     detail: "",
@@ -167,6 +191,7 @@ export const works = [
   {
     id: 25,
     title: "高校入試ランク順アプリ",
+    category: ["ux-design", "frontend", "B2B"],
     title_caption:
       "UI/UXデザイン・オーサリング（Adobe Air for Android/iOSを用いたプログラミング）",
     detail: "",
@@ -174,6 +199,7 @@ export const works = [
   {
     id: 26,
     title: "中学入試一問一答 反復プリント作成ソフト",
+    category: ["ux-design", "frontend", "B2B"],
     title_caption:
       "UI/UXデザイン・オーサリング（Adobe Air for Android/iOSを用いたプログラミング）",
     detail: "",
@@ -181,12 +207,14 @@ export const works = [
   {
     id: 27,
     title: "CoNETS デジタル教科書 UI 制作",
+    category: ["ux-design", "B2B"],
     title_caption: "UIデザイン",
     detail: "",
   },
   {
     id: 28,
     title: "大日本図書 中学理科 デジタル教科書 コンテンツ制作",
+    category: ["ux-design", "frontend", "B2B"],
     title_caption:
       "UIデザイン、コーディング、プログラム実装（HTML5/JavaScript）",
     detail: "",
@@ -194,24 +222,28 @@ export const works = [
   {
     id: 29,
     title: "大日本図書 中学理科 デジタル教科書 コンテンツ制作",
+    category: ["ux-design", "frontend", "B2B"],
     title_caption: "UIデザイン",
     detail: "",
   },
   {
     id: 30,
     title: "シャープ　 LEDシーリングライト webサイト",
+    category: ["web", "frontend", "B2B"],
     title_caption: "Webデザイン、制作",
     detail: "",
   },
   {
     id: 31,
     title: "シャープ　 ブルーレイ webサイト",
+    category: ["web", "frontend", "B2B"],
     title_caption: "Webデザイン、制作",
     detail: "",
   },
   {
     id: 32,
     title: "シャープ　 COCOROBO webサイト トップページギミック",
+    category: ["web", "frontend", "B2B"],
     title_caption:
       "デザイン、コーディング、プログラミング（HTML5 CANVAS / Flash）",
     detail: "",
@@ -219,18 +251,21 @@ export const works = [
   {
     id: 33,
     title: "3ドライブハイパワーエンジン紹介動画／ヘルシオ：シャープ",
+    category: ["movie", "B2B"],
     title_caption: "動画制作",
     detail: "",
   },
   {
     id: 34,
     title: "シャープの教育ソリューション「BIG PAD + STUDY SERIES」2016篇",
+    category: ["movie", "B2B"],
     title_caption: "動画制作",
     detail: "",
   },
   {
     id: 35,
     title: "Kawasaki Hybrid Propulsion System プロモーション映像",
+    category: ["movie", "B2B"],
     title_caption: "動画制作",
     detail: "",
   },
